@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEXT ON IMAGE</title>
+    <style>
+        .container {
+            position: relative;
+        }
+        
+        img {
+            width: 300px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        
+        p {
+            position: absolute;
+            top: 60%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #fff;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        
+        img:hover {
+            width: 350px;
+            transition: .4s all;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img src="female2.png">
+        <p>This is a girl</p>
+    </div>
+</body>
+
+</html>

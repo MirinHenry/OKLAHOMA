@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROFILE DESIGN</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        body {
+            min-height: 100vh;
+            background: #1b1b00;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .card {
+            width: 300px;
+            background-color: #4b5257;
+            border-radius: 5px;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+            margin: auto;
+            text-align: center;
+        }
+        
+        .card-header {
+            padding: 20px;
+        }
+        
+        img {
+            width: 115px;
+            height: 115px;
+            border-radius: 50%;
+            border: 4px solid pink;
+            object-fit: cover;
+        }
+        
+        h1 {
+            color: white;
+            font-size: 40px;
+            font-weight: bold;
+            letter-spacing: 4px;
+        }
+        
+        .card-header p {
+            color: darkkhaki;
+            font-size: 18px;
+            font-weight: 100;
+            letter-spacing: 3px;
+        }
+        
+        .card-body {
+            padding: 40px;
+        }
+        
+        .card-body p {
+            color: #888;
+            font-size: 20px;
+        }
+        
+        .card-body a {
+            text-decoration: none;
+            background: darkolivegreen;
+            padding: 5px 8px;
+            color: oldlace;
+            border-radius: 5px;
+            border: none;
+            margin-top: 10px;
+            transition: 0.5s;
+        }
+        
+        a:hover {
+            background: purple;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <div class="card-header">
+            <img src="henry.jpg">
+            <h1>Henry</h1>
+            <p>Web developer</p>
+        </div>
+        <div class="card-body">
+            <p>Hello, my name is Mirin and I am a web developer</p>
+            <a href="">view porfolio</a>
+        </div>
+    </div>
+</body>
+
+</html>
